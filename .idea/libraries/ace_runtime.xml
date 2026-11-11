@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ace-runtime">
+    <CLASSES>
+      <root url="jar:///home/arson/.m2/repository/com/ibm/ace/jplugin2/13.0.9.1/jplugin2-13.0.9.1.jar!/" />
+      <root url="jar:///home/arson/.m2/repository/com/ibm/ace/IntegrationAPI/13.0.9.1/IntegrationAPI-13.0.9.1.jar!/" />
+      <root url="jar:///home/arson/.m2/repository/com/ibm/ace/bipbroker/13.0.9.1/bipbroker-13.0.9.1.jar!/" />
+      <root url="jar:///home/arson/.m2/repository/com/ibm/ace/bipbootstrap/13.0.9.1/bipbootstrap-13.0.9.1.jar!/" />
+      <root url="jar:///home/arson/.m2/repository/net/sf/jt400/jt400/21.0.7/jt400-21.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,17 @@
+# Build output and IDE
+**/target/
+.idea/
+*.iml
+.settings/
+
+# Local developer tooling, test scripts, and agent docs
+/tools/
+/guide.md
+AGENTS.md
+CLAUDE.md
+__pycache__/
+*.pyc
+
+# Integration artifacts
+*.bar
+*.log

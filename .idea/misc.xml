@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="class" FQNAME="com.ibm.broker.config.appdev.Node" />
+      <entry_point TYPE="class" FQNAME="com.ibm.broker.plugin.MbNode" />
+      <entry_point TYPE="class" FQNAME="com.ibm.broker.plugin.MbInputNode" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.dataqueue.DataQueueGetNodeUDN" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.dataqueue.DataQueueInputNodeUDN" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.dataqueue.DataQueueOutputNodeUDN" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.pcml.ISeriesPcmlCallNodeUDN" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.dataqueue.DataQueueGetNode" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.dataqueue.DataQueueInputNode" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.dataqueue.DataQueueOutputNode" />
+      <entry_point TYPE="class" FQNAME="com.ibm.swg.iseries.pcml.ISeriesPcmlCallNode" />
+    </entry_points>
+    <pattern value="com.ibm.broker.config.appdev.Node" hierarchically="true" />
+    <pattern value="com.ibm.broker.config.appdev.Node" hierarchically="true" method="*" />
+    <pattern value="com.ibm.broker.plugin.MbNode" hierarchically="true" />
+    <pattern value="com.ibm.broker.plugin.MbNode" hierarchically="true" method="*" />
+    <pattern value="com.ibm.broker.plugin.MbInputNode" hierarchically="true" />
+    <pattern value="com.ibm.broker.plugin.MbInputNode" hierarchically="true" method="*" />
+    <pattern value="com.ibm.swg.iseries.*" hierarchically="true" />
+    <pattern value="com.ibm.swg.iseries.*" hierarchically="true" method="*" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="azul-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

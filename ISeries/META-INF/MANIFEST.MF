@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: ISeries;singleton:=true
+Bundle-Name: IBM i Nodes for ACE 13
+Bundle-Version: 13.0.0
+Require-Bundle: com.ibm.etools.mft.api,com.ibm.etools.mft.util.ui,com.
+ ibm.etools.mft.config
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: com.ibm.swg.iseries.dataqueue,
+ com.ibm.swg.iseries.pcml
+Bundle-Vendor: ISeries Provider
+
